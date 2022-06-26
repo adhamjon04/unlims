@@ -1,0 +1,55 @@
+.biznes{
+    padding-top: 50px;
+}
+.status{
+    font-size: 40px;
+    color: gold;
+}
+.df-busines{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    margin: 0px;
+    margin-bottom: 50px;
+    font-weight: 400;
+    font-size: 28px;
+    letter-spacing: 3px;
+}
+.text-color{
+    color: #14A0F8;
+    margin-left: 10px;
+
+}
+
+@media only screen and (max-width:570px){
+    .df-busines{
+        text-align: center;
+        padding-left:   0px;
+        margin-bottom: 50px;
+        font-weight: 400;
+        font-size: 24px;
+        letter-spacing: 3px;
+    }
+    .home__traffic{
+        font-size: 24px;
+    }
+
+
+    
+} 
+@media only screen and (max-width:425px){
+    .df-busines{
+        text-align: center;
+        padding-left: 35px;
+        margin-bottom: 0px;
+        font-weight: 400;
+        font-size: 20px;
+        letter-spacing: 1px;
+    }
+    .home__traffic{
+        font-size: 20px;
+    }
+
+
+    
+} 

@@ -1,0 +1,161 @@
+
+
+
+.servi__list{
+    margin-bottom: 110px;
+}
+.servi__img{
+    width: 300px;
+    height: 250px;
+    border-radius: 20px;
+    margin-right: 150px;
+}
+.servi__item{
+    display: flex;
+    text-align: center;
+    align-items: center;
+    margin-left: 100px;
+    margin-bottom: 50px;
+
+}
+.sevi__text{
+    display: flex;
+    font-size: 25px;
+    margin-left: 0px;
+   
+}
+.servi__textone{
+    max-width: 500px;
+    margin-right: 20px;
+    margin-bottom: 0px;
+
+}
+.servi__texttwo{
+    color: #14A0F8;
+    font-size: 30px;
+    margin-top: 20px;
+}
+.modem-img{
+    height: 210px;
+    margin-left: -25px;
+}
+
+@media only screen and (max-width:1024px){
+
+    .sevi__text{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .servi__texttwo{
+        text-align: center;
+        justify-content: center;
+    }
+
+    .footer{
+        width: 100%;
+    }
+
+
+
+    
+} 
+@media only screen and (max-width:831px){
+    .servi__img{
+        width: 250px;
+        height: 200px;
+        border-radius: 20px;
+        margin-right: 50px;
+    }
+    .sevi__text{
+        display: flex;
+        font-size: 20px;
+        margin-left: 0px;
+       
+    }
+    .servi__texttwo{
+        color: #14A0F8;
+        font-size: 25px;
+        margin-top: 20px;
+    }
+    
+} 
+@media only screen and (max-width:631px){
+    .servi__img{
+        width: 200px;
+        height: 160px;
+        border-radius: 20px;
+        margin-right: 30px;
+    }
+    .sevi__text{
+        display: flex;
+        font-size: 16px;
+        margin-left: 0px;
+       
+    }
+    .servi__texttwo{
+        color: #14A0F8;
+        font-size: 18px;
+        margin-top: 20px;
+    }
+    .footer{
+        height: 600px;
+    }   
+    
+} 
+
+@media only screen and (max-width:520px){
+    .servi__list{
+        margin-left: -100px;
+    }
+
+}
+@media only screen and (max-width:460px){
+    .servi__list{
+        margin-left: -100px;
+    }
+    .footer{
+        height: 700px;
+    }   
+    
+
+}
+@media only screen and (max-width:425px) {
+    .servi__img{
+        width: 160px;
+        height: 140px;
+        border-radius: 20px;
+        margin-right: 20px;
+    }
+    .sevi__text{
+        display: flex;
+        font-size: 14px;
+        margin-left: 0px;
+       
+    }
+    .servi__texttwo{
+        color: #14A0F8;
+        font-size: 16px;
+        margin-top: 20px;
+    }
+    .servi__item{
+        display: flex;
+        flex-wrap: wrap;
+        width: 200px;
+       
+      
+    }
+    .sevi__text{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .servi__list{
+        margin-left: 0px;
+    }
+    .router{
+        margin-left: -40px;
+    }
+    .money{
+        margin-left: 10px;
+    }
+    
+}

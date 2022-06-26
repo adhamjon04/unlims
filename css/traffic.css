@@ -1,0 +1,274 @@
+
+  :root{
+    --card-animation-speed:1s;
+  }
+  
+/* Traffic css*/
+
+
+.traffic{
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+
+.home__traffic{
+    margin: 0px;
+    margin-bottom: 50px;
+    font-weight: 400;
+    font-size: 28px;
+    text-align: center;
+    letter-spacing: 3px;
+  }
+  
+.traffic__list{
+  display: flex;
+  flex-wrap: wrap;
+  text-align: center;
+  justify-content: center;
+   
+    
+}
+  
+
+.card{
+  width: 30%;
+  margin-right: 40px;
+  transition:var(--card-animation-speed) ease;
+  transform: scale(1); 
+  margin-bottom: 50px; 
+
+   
+  }
+.card .card-front{
+	position: absolute;
+	cursor: pointer;
+  backface-visibility: hidden;
+  transition:var(--card-animation-speed) ease;
+  transform: scale(1);
+	transform: translateY(0deg);
+}
+.card .card-back{
+	cursor: pointer;
+	background: #14A0F8;
+  backface-visibility: hidden;
+	transition:var(--card-animation-speed) ease;
+  transform: scale(0);
+	transform: translateY(180deg);
+}
+.card--flipped .card-front{
+  transform: rotateY(-180deg) !important;
+}
+.card--flipped .card-back{
+	transform: rotateY(0deg) !important;
+}
+.card--grown{
+    transform: scale(1.05);
+}
+  
+.displayflex{
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  margin: 0px;
+  margin-bottom: 50px;
+  font-weight: 400;
+  font-size: 28px;
+  text-align: center;
+  letter-spacing: 3px;
+}
+.traffic__item{
+  margin-right: 0px;
+  margin-left: 0px;
+  text-decoration: none;
+  list-style-type: none;
+  text-align: center;
+  justify-content: center;
+  width: 400px;
+  border: 2px solid #14A0F8;
+  border-radius: 5px;   
+}
+
+  
+.text__color{
+  color: #14A0F8;
+  margin-left: 10px;
+}
+.text__unlim{
+
+  padding-top: 5px;
+  padding-bottom:5px;
+  width: 100%;
+  height: 70px;
+  font-weight: 100;
+  font-size: 35px;
+  letter-spacing: 4px;
+  margin: 0px;
+  background: #14A0F8;
+}
+.unlim{
+  color: #fff;
+}
+.number{
+  margin-left: 10px;
+  width: 15px;
+  height: 15px;
+  padding: 4px 10px;
+
+  border-radius: 50%;
+  background: yellow;
+
+}
+.megabyte{
+  font-size: 70px;
+  color: #14A0F8;
+  margin-right: 5px;
+}
+.speeds{
+  color: #14A0F8;
+
+}
+.pracing{
+  top: 10px;
+  margin-right: 5px;
+  font-size: 40px;
+}
+.month{
+  color: #14A0F8;
+}
+.sale__month{
+  padding-top: 4px;
+  margin-bottom: 30px;
+  letter-spacing: 3px;
+  text-align: center;
+  justify-content: center;
+  width: 100%;
+  height: 70px;
+  background: #EDF8FE ;
+}
+.tasixs{
+  letter-spacing: 3px;
+}
+.speed__tasix{
+ margin-right: 5px;
+  font-size: 20px;
+}
+.tasix__fast{
+  color: #14A0F8;
+  margin-right: 4px;  
+  font-size: 50px;
+}
+.more__btn{
+  border: 1px solid #fff;
+  background:yellow;
+  margin-bottom: 30px;
+  width: 170px;
+  height: 60px;
+  border-radius: 10px;
+  font-size: 18px;
+  cursor: pointer;
+}
+.more__btn:hover{
+  background: #000;
+  color: #fff;
+  transition: all 1s ease 0.1ms;
+}
+.traffic__list-two{
+  display: flex;
+  text-align: center;
+  justify-content: center;
+}
+.mbit{
+font-size: 20px;
+}
+.everyday{
+color: #EDF8FE;
+font-size: 20px;
+margin-bottom: 0px;
+}
+.everspeed{
+margin-top: 0px;
+color: #EDF8FE;
+font-size: 36px;
+}
+.tonight{
+color: #EDF8FE;
+font-size: 20px;
+margin-bottom: 0px;
+}
+.tonightspeed{
+margin-top: 0px;
+color: #EDF8FE;
+font-size: 36px;
+}
+.limitspeed{
+color: #EDF8FE;
+font-size: 20px;
+margin-bottom: 0px;
+}
+.nolimit{
+margin-top: 0px;
+color: #EDF8FE;
+font-size: 36px;
+margin-bottom: 55px;
+
+} 
+
+
+/* Responsive */
+
+
+@media only screen and (max-width:1240px){
+
+  .card{
+    margin-right: 150px;
+
+  }
+}
+
+@media only screen and (max-width:1024px){
+
+  .card{
+    margin-right: 170px;
+
+  }
+}
+
+@media only screen and (max-width:890px){
+
+  .card{
+    margin-right: 170px;
+
+  }
+}
+@media only screen and (max-width:426px){
+
+
+.home__traffic{
+  font-size: 25px;
+}
+  .displayflex{
+    margin-left: 80px;
+    font-size: 25px;
+  }
+  .traffic__list{
+    margin: 0px;
+  }
+
+  .card{
+    margin-left: -70px;
+
+  }
+}
+@media only screen and (max-width:324px){
+  .traffic__list{
+    
+    padding-left:-50px;
+
+  }
+
+  
+}
+
+
+
+  

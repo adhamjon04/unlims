@@ -1,0 +1,23 @@
+
+.lisence__page{
+    margin-top: 50px;
+}
+.lisence__text{
+    margin: 0px;
+    margin-bottom: 50px;
+    font-weight: 400;
+    font-size: 28px;
+    text-align: center;
+    letter-spacing: 3px;
+}
+.lisence__span{
+    color: #14A0F8;
+  }
+.lisence__img{
+    width: 600px;
+    height: 700px;
+    margin-left: 100px;
+    margin-bottom: 50px;
+    border: 5px solid red;
+    border-radius: 20px;
+  }

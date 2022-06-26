@@ -1,0 +1,16 @@
+.oferta {
+    margin-left: 50px;
+    margin-right: 0px;
+    padding-top: 50px;
+  }
+.oferta p{
+    font-size: 20px;
+    max-width: 100%;
+}  
+.bank{
+  width: 450px;
+}
+.oferta h3{
+  text-align: center;
+  justify-content: center;
+}
