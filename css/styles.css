@@ -907,6 +907,9 @@ body {
   margin-right: 100px;
 
 }
+.header__item{
+  margin-right: 40px;
+}
 
 /*HERO Section */
 
@@ -1148,6 +1151,9 @@ body {
 .item__link{
   font-size: 14px;
 }
+.header__item{
+  margin-right: 30px;
+}
 
 
   /*HERO Section */
@@ -1326,6 +1332,10 @@ body {
     margin-top:5px;
     margin-right: 20px;
 
+  }
+
+  .header__item{
+    margin-right: 25px;
   }
 
 
@@ -1939,6 +1949,87 @@ body {
     margin-right: -50px;
   
   }
+  .hero__prase{
+
+  position: absolute;
+  max-width: 100%;
+  font-size: 24px;
+  margin-left: 50px;
   
+
+}
+
+
+.hero__prasetwo{
+  position: absolute;
+  max-width: 100%;
+  margin-top: 50px;
+  font-size: 20px;
+  margin-left: 50px;
+
+}
+.limited__name{
+  font-size: 18px;
+}
+.limit__nameone{
+  font-size: 18px;
+  margin-top: 15px;
+}
+.company__service{
+  font-size: 18px;
+
+}
+.payme__img{
+  margin-left: 20px;
+}
+
+.footer__list{
+  padding-left: 10px;
+}
+
+}
+
+@media only screen and (max-width: 351px){
+  .admin-btn{
+    margin-right: 5px;
+    background: rgb(228, 235, 9);
+    border-radius: 20px;
+    border: none;
+  }
+  .header__call{
+    padding-left: 0px;
+  }
+  .hero__prase{
+    position: absolute;
+    max-width: 100%;
+    font-size: 20px;
+    margin-left: 50px;
+  }
+  .hero__prasetwo{
+    position: absolute;
+    max-width: 100%;
+    margin-top: 50px;
+    font-size: 16px;
+    margin-left: 50px;
+  
+  }
+  .header__service{
+    margin-right: 10px;
+  }
+  .sliders{
+    width: 120%;
+    height: 180px;
+    overflow: hidden;
+  }
+  .nav-m{
+    width: 99%;
+    margin-top: 60px;
+    margin-left: 35px;
+   
+  }
+  .hero__link-btn{
+    margin-top: 100px;
+    margin-left: 0px;
+  }
 
 }
