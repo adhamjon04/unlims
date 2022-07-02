@@ -49,11 +49,13 @@
 
 html {
   box-sizing: border-box;
+  scroll-behavior: smooth;
 }
 
 *,
 *::before,
 *::after {
+
   box-sizing: inherit;
 }
 
@@ -294,7 +296,7 @@ img {
   width: 0;
   position: fixed;
   z-index: 1;
-  height: 450px;
+  height: 850px;
   top: 30px;
   right: 0px;
   background-color: #f1f1f1;
@@ -1079,7 +1081,7 @@ body {
 
 .footer{
   background: #000000;
-  width: 107%;
+  width: 107%;    /* 107% */
   height: 500px;
   font-family: 'Poppins';
 }
@@ -1101,13 +1103,13 @@ body {
   }
 
 .sliders{
-  width: 107%;
+  width: 107%;  /* 107% */
   height: 450px;
     
 }
 .slide{
   display: flex;
-  width: 500%;
+  width: 500%;    /* 500% */
   height: 350px;
   
 }
@@ -1187,13 +1189,13 @@ body {
 
 }
 .sliders{
-  width: 107%;
+  width: 107%;   /* 107% */
   height: 400px;
   
 }
 .slide{
   display: flex;
-  width: 500%;
+  width: 500%;       /* 500% */
   height: 350px;
 
 }
@@ -1255,7 +1257,7 @@ body {
 /* service */
 
 .bg__img{
-  width: 107%;
+  width: 107%;   /* 107% */
   height: 400px;
 }
 .bg__text{
@@ -1361,12 +1363,12 @@ body {
     font-size: 14px;
   }
   .sliders{
-    width: 107%;
+    width: 107%;    /* 107% */
     height: 380px;  
   }
   .slide{
     display: flex;
-    width: 500%;
+    width: 500%;    /* 500% */
     height: 300px;
   }
   
@@ -1439,13 +1441,13 @@ body {
 }
 
 .sliders{
-  width: 120%;
+  width: 120%;    /* 120% */
   height: 350px;
   overflow: hidden;
 }
 .slide{
   display: flex;
-  width: 500%;
+  width: 500%;   /* 500% */
   height: 130px;
 
 }
@@ -1558,7 +1560,7 @@ body {
 .bg__img{
   z-index: 101;
   left: 0px;
-  width: 120%;
+  width: 120%;    /* 120% */
   height: 400px;
 }
 .bg__text{
@@ -1600,14 +1602,14 @@ body {
 /* Maps css */
 
 .maps__location{
-  width: 120%;
+  width: 120%;    /* 120% */
 }
 /*Footer css */
 
 
 .footer{
   
-  width: 120%;
+  width: 120%;    /* 120% */
   height: 500px;
   font-family: 'Poppins';
 }
@@ -1640,7 +1642,7 @@ body {
 }
 @media only screen and (max-width: 610px){
   .sliders{
-    width: 120%;
+    width: 120%;  /* 120% */
     height: 250px;
     overflow: hidden;
   }
@@ -1734,13 +1736,13 @@ body {
 }
 
 .sliders{
-  width: 120%;
+  width: 120%;   /* 120% */
   height: 250px;
   overflow: hidden;
 }
 .slide{
   display: flex;
-  width: 500%;
+  width: 500%;    /* 500% */
   height: 100px;
 
 }
@@ -1817,7 +1819,7 @@ body {
 
 @media only screen and (max-width: 460px){
   .sliders{
-    width: 120%;
+    width: 120%;    /* 120% */
     height: 220px;
     overflow: hidden;
   }
@@ -1910,7 +1912,7 @@ body {
   }
 
   .sliders{
-    width: 120%;
+    width: 120%;   /* 120% */
     height: 210px;
     overflow: hidden;
   }
@@ -2017,7 +2019,7 @@ body {
     margin-right: 10px;
   }
   .sliders{
-    width: 120%;
+    width: 120%;   /* 120% */
     height: 180px;
     overflow: hidden;
   }
