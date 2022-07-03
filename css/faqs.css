@@ -1,7 +1,10 @@
 .faqs {
     margin-left: 50px;
     margin-right: 20px;
-    padding-top: 50px;
+    padding-top: 100px;
+    margin-bottom: 100px;
+    
+  
   }
 .faqs p{
     font-size: 20px;
@@ -13,65 +16,70 @@
   text-align: center;
   justify-content: center;
 }
-.acor-container {
-  margin: 20px 0;
-  margin-bottom: 100px;
+
+
+
+
+div.c{
+  position: relative;
+  margin:0.5em;
 }
-.acor-container .acor-body {
-  width: calc(100% - 40px);
-  margin: 0 auto;
-  height: 0;
-  color: rgba(0, 0, 0, 0);
-  background-color: #BFE2FF;
-  line-height: 18px;
-  padding: 0 30px;
-  box-sizing: border-box;
-  transition: color 0.5s, padding 0.5s;
-  overflow: hidden;
-  font-family: Verdana, sans-serif; 
-  font-size: 16px;
-  box-shadow: 0 4px 8px rgba(0,0,0,0.2), 0 10px 16px rgba(0,0,0,0.2);
+input{
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 100%;
+  width:calc (100%-40px);
+  opacity:0;
+  visibility: 0;
 }
-.acor-container .acor-body p {
-  margin: 0 0 10px;
+h1{
+  height: 80px;
+  background:#14A0F8 ;
+  color:white;
+  padding:0.5em;
+  position: relative;
 }
-.acor-container label {
+label::before{
+  content:"";
+  display: inline-block;
+  border: 15px solid transparent;
+  border-left:20px solid white;
+}
+label{
+  font-size: 24px;
   cursor: pointer;
-  background-color: #337AB7;
-  display: block;
-  padding: 15px 20px;
-  width: 100%;
-  color: #BFE2FF;
-  font-weight: 300;
-  box-sizing: border-box;
-  z-index: 100;
-  font-family: Verdana, sans-serif;   
-  font-size: 18px;
-  margin: 0 0 5px;
-  transition: color .35s;
+  position: relative;
+  display: flex;
+  align-items: center;
 }
-.acor-container label:hover {
-  color: #FFF;
+div.p{
+  max-height:0px;
+  overflow: hidden;
+  transition:max-height 0.5s;
+  background-color: white;
+  box-shadow:0 0 10px 0 rgba(0, 0, 0, 0.2);
 }
-.acor-container input{
-  display: none;
+div.p p {
+  padding:0.5em;
+  padding-bottom: 0px;
+  margin-bottom: 0px;
+  margin-top: 0px;
 }
-.acor-container label:before {
-  content: '\276F';
-  float: right;
+input:checked ~ h1 label::before{
+  border-left:15px solid transparent;
+  border-top:20px solid white;
+  margin-top:12px;
+  margin-right:10px;
+  
 }
-.acor-container input:checked + label {
-  background-color: #285f8f;
-  color: #FFF;
-  box-shadow: 0 8px 26px rgba(0,0,0,0.4), 0 28px 30px rgba(0,0,0,0.3);
+input:checked ~ h1 ~ div.p{
+  max-height:100%;
 }
-.acor-container input:checked + label:before {
-  transition: transform .35s;
-  transform: rotate(90deg);
+a{
+  color:steelblue;
 }
-.acor-container input:checked + label + .acor-body {
-  height: auto;
-  margin-top: -5px;
-  color: #000;
-  padding: 20px 30px 10px;
-}
+
+
+
+
